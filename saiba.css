@@ -54,3 +54,22 @@
          color: #ffffff; 
          border: 2px solid #6a0dad; 
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .palestrante h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
