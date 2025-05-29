@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(IMG/background.png);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+    }
+
+    .palestrante {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
+
+    .palestrante h2 {
+      color: #8727c7;
+    }
+
+    .local {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.1em;
+    }
+
+    button {
+         background-color: #6a0dad; 
+         color: white;
+         border: none;
+         padding: 10px 345px;  
+         font-size: 1.50rem;  
+         border-radius: 12px; 
+         cursor: pointer;
+         transition: background-color 0.3s ease, color 0.3s ease;
+         font-weight: 700;
+    }
+
+    button:hover {
+         background-color: transparent; 
+         color: #ffffff; 
+         border: 2px solid #6a0dad; 
+}
