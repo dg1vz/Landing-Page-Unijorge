@@ -1,88 +1,56 @@
 @charset "UTF-8";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(IMG/background.png);
+      margin: 0;
+      padding: 20px;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  background-image: url(IMG/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 20px;
-}
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  background: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    h1 {
+      text-align: center;
+      color: #000000;
+    }
 
-h1 {
-  text-align: center;
-  color: #000000;
-}
+    .palestrante {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
 
-.palestrante {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-}
+    .palestrante h2 {
+      color: #8727c7;
+    }
 
-.palestrante h2 {
-  color: #8727c7;
-}
+    .local {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1.1em;
+    }
 
-.local {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 1.1em;
-}
+    button {
+         background-color: #6a0dad; 
+         color: white;
+         border: none;
+         padding: 10px 345px;  
+         font-size: 1.50rem;  
+         border-radius: 12px; 
+         cursor: pointer;
+         transition: background-color 0.3s ease, color 0.3s ease;
+         font-weight: 700;
+    }
 
-button {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  background-color: #6a0dad;
-  color: white;
-  border: none;
-  padding: 15px;
-  font-size: 1.2rem;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  font-weight: 700;
-  margin: 30px auto 0 auto;
-}
-
-button:hover {
-  background-color: transparent;
-  color: #6a0dad;
-  border: 2px solid #6a0dad;
-}
-
-/* RESPONSIVIDADE */
-@media (max-width: 600px) {
-  .container {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  .palestrante h2 {
-    font-size: 20px;
-  }
-
-  button {
-    font-size: 1rem;
-    padding: 12px;
-  }
+    button:hover {
+         background-color: transparent; 
+         color: #ffffff; 
+         border: 2px solid #6a0dad; 
 }
